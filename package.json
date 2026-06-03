@@ -7,6 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web --port 8082",
+    "build:web": "expo build:web",
     "ble-bridge": "node scripts/ble-bridge.js"
   },
   "dependencies": {

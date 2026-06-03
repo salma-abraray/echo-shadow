@@ -1,5 +1,6 @@
 .expo/
 node_modules/
+web-build/
 dist/
 .DS_Store
 .vscode/
@@ -7,5 +8,6 @@ android/
 ios/
 npm-debug.log
 yarn-error.log
-*.log# Local Netlify folder
+*.log
+# Local Netlify folder
 .netlify
