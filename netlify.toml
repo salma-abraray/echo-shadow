@@ -1,0 +1,11 @@
+# ── WanderLost — Netlify deployment config ────────────────────────────────────
+[build]
+  # Expo web export output folder
+  publish = "dist"
+  command = "npx expo export --platform web --output-dir dist"
+
+# Redirect every route to index.html so the React Native Web router works
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
